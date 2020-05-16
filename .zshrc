@@ -8,7 +8,7 @@ export ZSH="/home/bayronq/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="random"
+ZSH_THEME="refined"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -101,3 +101,4 @@ alias zshrc="mate ~/.zshrc"
 sh /bin/ufetch
 export PATH="$PATH:/opt/mssql-tools/bin"
 alias reloj="tty-clock -s -c 2"
+alias peso="du -sh * | sort -nr | head -5"
