@@ -101,4 +101,4 @@ alias zshrc="mate ~/.zshrc"
 sh /bin/ufetch
 export PATH="$PATH:/opt/mssql-tools/bin"
 alias reloj="tty-clock -s -c 2"
-alias peso="du -sh * | sort -nr | head -5"
+alias peso="du -sm * | sort -nr | head -5"
