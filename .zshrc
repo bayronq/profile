@@ -96,9 +96,15 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshrc="mate ~/.zshrc"
- alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="mate ~/.oh-my-zsh"
 
-sh /bin/ufetch
+#Path personales
 export PATH="$PATH:/opt/mssql-tools/bin"
+
+
+#Alias
 alias reloj="tty-clock -s -c 2"
 alias peso="du -sm * | sort -nr | head -5"
+
+#comandos al inicio
+ufetch
